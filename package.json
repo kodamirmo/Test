@@ -1,7 +1,9 @@
 {
   "name": "irving-travis-mocha",
   "version": "0.0.0-001",
-  "dependencies": {},
+  "dependencies": {
+  	"mocha": "~1.4.0"
+  	},
   "devDependencies": {
     "mocha": "~1.4.0"
   },
