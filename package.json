@@ -4,10 +4,13 @@
   "dependencies": {
   	"mocha": "~1.4.0"
   	},
+  "repository" :{ "type" : "git",
+  "url" : "https://github.com/kodamirmo/Test.git"
+ },
   "devDependencies": {
     "mocha": "~1.4.0"
   },
   "scripts": {
-    "test": "node_modules/.bin/mocha"
+    "test": "mocha"
   }
 }
