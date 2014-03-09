@@ -8,6 +8,6 @@
     "mocha": "~1.4.0"
   },
   "scripts": {
-    "test": "npm install && mocha"
+    "test": "node_modules/.bin/mocha"
   }
 }
